@@ -21,9 +21,9 @@ import java.util.regex.Pattern;
 @Component
 public class BotComponent extends ListenerAdapter {
 
-    private static final String DISCORD_TOKEN = "NzE0MjA2NzIxMjY2MTU1NTkw.XsrS3Q.KOK0lE29c7qZ7hGOUc4oWoBkR-I";
-    private static final long BOT_TESTING_CHANNEL_ID = 681624327870742541L;
-    private static final long WARNING_ROLE_ID = 711568157462102026L;
+    private static final String DISCORD_TOKEN = "1234";
+    private static final long BOT_TESTING_CHANNEL_ID = 1234L;
+    private static final long WARNING_ROLE_ID = 1234L;
     private static final DateTimeFormatter DATE_TIME_FORMAT = DateTimeFormatter.ofPattern("HH:mm:ss");
     private static final Pattern regex = Pattern.compile("(!user) (?<userId>[0-9]+)");
     private JDA jda;
